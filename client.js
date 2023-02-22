@@ -12,11 +12,13 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: ECC");
+    //conn.write("Move: up");
   });
 
 
   conn.on("data", (data) => {
     console.log("Server says: ", data);
+
   });
 
 
