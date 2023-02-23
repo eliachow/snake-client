@@ -1,5 +1,6 @@
-const { connect } = require("http2");
-const { stdin } = require("process");
+// const { connect } = require("http2");
+// const { stdin } = require("process");
+const { keyInputs } = require('./constants');
 
 // In the input module, create a variable in the outer-most scope called connection, which can default to undefined.
 // Stores the active TCP connection object.
@@ -26,28 +27,9 @@ const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit();
   }
-  if (key === 'w') {
-    connection.write("Move: up");
-    // console.log("Move: up");
-  }
-  if (key === 'a') {
-    connection.write("Move: left");
-  }
-  if (key === 's') {
-    connection.write("Move: down");
-  }
-  if (key === 'd') {
-    connection.write("Move: right");
-  }
-  if (key === 'c') {
-    connection.write("Say: catch me if you can");
-  }
-  if (key === 'f') {
-    connection.write("Say: faster!");
-  }
-  if (key === 't') {
-    connection.write("Say: too slow!");
-  }
+  connection.write(keyInputs[key]);
 };
 
-module.exports = { setupInput };
+module.exports = {
+  setupInput,
+};
