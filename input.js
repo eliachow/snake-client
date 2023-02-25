@@ -27,7 +27,16 @@ const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit();
   }
-  connection.write(keyInputs[key]);
+
+  //only handle input if the keyInput matches one of the keyInputs
+  const keyInput = key;
+  for (const key in keyInputs) {
+    if (keyInput === key) {
+      connection.write(keyInputs[keyInput]);
+    }
+  }
+  
+  //connection.write(keyInputs[key]);
 };
 
 module.exports = {
