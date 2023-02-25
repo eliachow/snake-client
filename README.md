@@ -9,7 +9,7 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 <picture>
-    <img alt="Snake Game" src="./media/snake.PNG">
+    <img alt="Snake Game" src="../media/snake.PNG">
 </picture>
 
 ## Getting Started
