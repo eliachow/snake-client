@@ -35,8 +35,6 @@ const handleUserInput = function(key) {
       connection.write(keyInputs[keyInput]);
     }
   }
-  
-  //connection.write(keyInputs[key]);
 };
 
 module.exports = {
