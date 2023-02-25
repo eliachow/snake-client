@@ -12,6 +12,12 @@ Before you can run this client, you will need to be running the server side whic
     <img alt="Snake Game" src="/media/snake.PNG">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
+  <img alt="Snake Game." src="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
+</picture>
+
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
@@ -29,3 +35,7 @@ Key talk inputs:
 - c: "catch me if you can:
 - f: "faster!"
 - t: "too slow!"
+
+Key exit input:
+
+- CTRL C
