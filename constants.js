@@ -1,7 +1,3 @@
-// const { createConnection } = require("net");
-// const { connection } = require("./input");
-
-
 const IP = "localhost";
 const PORT = 50541;
 
@@ -14,7 +10,7 @@ const keyInputs = {
   c: "Say: catch me if you can",
   f: "Say: faster!",
   t: "Say: too slow!",
-};
+}
 
 
 module.exports = {
