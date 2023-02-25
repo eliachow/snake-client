@@ -10,7 +10,7 @@ const keyInputs = {
   c: "Say: catch me if you can",
   f: "Say: faster!",
   t: "Say: too slow!",
-}
+};
 
 
 module.exports = {
