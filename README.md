@@ -9,10 +9,23 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 <picture>
-    <img alt="Snake Game" src="../media/snake.PNG">
+    <img alt="Snake Game" src="/media/snake.PNG">
 </picture>
 
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+Key movement inputs:
+
+- w: move up
+- a: move left
+- s: move down
+- d: move right
+
+Key talk inputs:
+
+- c: "catch me if you can:
+- f: "faster!"
+- t: "too slow!"
