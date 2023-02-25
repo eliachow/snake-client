@@ -9,11 +9,6 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 <picture>
-    <img alt="Snake Game" src="/media/snake.PNG">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
   <img alt="Snake Game." src="https://raw.githubusercontent.com/eliachow/snake-client/master/media/snake.PNG">
 </picture>
